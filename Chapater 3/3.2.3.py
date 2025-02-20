@@ -18,3 +18,22 @@ while num != 0:
 
 print("odd_count: ", odd_num)
 print("even_count: ", even_num)
+
+
+
+# Using counter variable to exit a loop
+
+counter = 5
+
+while counter != 0:
+    print("Inside the loop.", counter)
+    counter -= 1
+
+print("Outside the loop.", counter)
+
+#More Compact version
+counter = 5
+while counter:
+    print("Inside the loop.", counter)
+    counter -= 1
+print("Outside the loop.", counter)
